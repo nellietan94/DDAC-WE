@@ -1,0 +1,6 @@
+[0705/051433.518:ERROR:crash_report_database_win.cc(563)] CreateDirectory C:\Program Files (x86)\temp: Access is denied. (0x5)
+[0705/051433.522:ERROR:registration_protocol_win.cc(84)] TransactNamedPipe: The pipe has been ended. (0x6D)
+[0705/051433.524:ERROR:crash_report_database_win.cc(563)] CreateDirectory C:\Program Files (x86)\temp: Access is denied. (0x5)
+[0705/051656.982:ERROR:crash_report_database_win.cc(563)] CreateDirectory C:\Program Files (x86)\temp: Access is denied. (0x5)
+[0705/051656.986:ERROR:registration_protocol_win.cc(84)] TransactNamedPipe: The pipe has been ended. (0x6D)
+[0705/051656.987:ERROR:crash_report_database_win.cc(563)] CreateDirectory C:\Program Files (x86)\temp: Access is denied. (0x5)
