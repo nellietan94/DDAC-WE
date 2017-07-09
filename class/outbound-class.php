@@ -9,7 +9,7 @@
 			$add_query = "INSERT INTO outbound (company_name, product_category, transportation, shipping_from, shipping_from_address, shipping_to, shipping_to_address, date, time, status, create_date) VALUES ('$com_name','$pro_category','$transport','$from_country','$from_address','$to_country','$to_address','$ship_date','$ship_time','$status','$c_date')";
 			$add_result = mysqli_query($connection, $add_query);
 			if($add_result){
-				echo '<div class="alert alert-success"><strong>SUCCESS ! </strong> You have successfully scheduled inbound.</div>';
+				echo '<div class="alert alert-success"><strong>SUCCESS ! </strong> You have successfully scheduled outbound.</div>';
 				header('Refresh: 2');
 			}else{
 				echo '<div class="alert alert-danger"><strong>FAILED ! </strong> Sorry, please try again.</div>';
